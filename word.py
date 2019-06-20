@@ -1,6 +1,6 @@
 class WordInfo():
     """
-        A class that provides more information about the word.
+    A class that provides more information about the word.
     Including position, and direction.
     """
 

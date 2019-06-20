@@ -3,6 +3,7 @@ from create_puzzle import create_puzzle
 from word import WordInfo
 
 
+# 3 nested for loops dont look like the cleanest solution to check every possible combination of letters, but I couldn't write a better algorithm
 def horizontal_check(test: TestWord, matrix: list) -> list:
     correct_words = []
     for i in range(len(matrix)):
@@ -20,6 +21,7 @@ def horizontal_check(test: TestWord, matrix: list) -> list:
     return correct_words
 
 
+# I really cannot explain how this works, I don't even know how I thought of this
 def vertical_check(test: TestWord, matrix: list) -> list:
     correct_words = []
     for i in range(len(matrix[0])):
